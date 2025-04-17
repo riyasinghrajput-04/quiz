@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Smart Classroom Quiz</title>
+    <link rel="stylesheet" href="quiz.css" >
+</head>
+<body>
+<div class="container">
+    <div id="loginSection">
+        <h2>YOUR ROLL NUMBER</h2>
+        <input type="text" id="rollNo" placeholder="Enter Roll Number" required />
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quizSection" style="display: none;">
+        <h2 id="questionText">Question will appear here</h2>
+        <div id="optionsContainer"></div>
+        <button id="nextBtn" onclick="nextQuestion()">Next</button>
+    </div>
+
+    <div id="resultSection" style="display: none;">
+        <h2>Quiz Completed 🎉</h2>
+        <div id="summary"></div>
+    </div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
