@@ -1,0 +1,8 @@
+opencv-python
+dlib
+face-recognition
+Flask
+numpy
+Pillow
+cmake==3.28.1
+keyboard
